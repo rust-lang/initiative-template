@@ -2,7 +2,7 @@
 name: Bug report
 about: Report a bug using this feature
 title: ''
-labels: bug-report
+labels: bug
 assignees: ''
 ---
 
