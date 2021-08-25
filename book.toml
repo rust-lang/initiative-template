@@ -1,10 +1,14 @@
 [book]
-authors = ["{{GROUP_NAME}} Members"]
+authors = ["{{INITIATIVE_NAME}} Members"]
 language = "en"
 multilingual = false
 src = "."
-title = "{{GROUP_NAME}} {{GROUP_TYPE}} Group"
+title = "{{INITIATIVE_NAME}} initiative"
 
 [output.html]
 no-section-label=true
-git-repository-url="https://github.com/rust-lang/{{GROUP_SLUG}}"
+git-repository-url="https://github.com/rust-lang/{{INITIATIVE_SLUG}}"
+
+[output.html.fold]
+enable = true
+level = 0
