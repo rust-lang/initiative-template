@@ -19,13 +19,7 @@
    e.g. "https://rust-lang.zulipchat.com/#narrow/stream/216763-project-inline-asm".
 -->
 
-<!--
- Status badge advertising the project as being actively worked on. When the
- project has finished be sure to replace the active badge with a badge
- like: https://img.shields.io/badge/status-archived-grey.svg
--->
 ![initiative status: active](https://img.shields.io/badge/status-active-brightgreen.svg)
-[![initiative documentation](https://img.shields.io/badge/MDBook-View%20Documentation-blue)][gh-pages]
 
 ## What is this?
 
