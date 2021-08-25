@@ -43,9 +43,9 @@ The following table lists of the stages of an initiative, along with links to th
 | [Proposal]                            | ✅    | [Proposal issue](https://github.com/rust-lang/lang-team/) |
 | [Experimental]                        | 🦀    | [Charter](./CHARTER.md) |
 |                                       |       | [Tracking issue](https://github.com/rust-lang/rust/) |
-| [Development]                         | 💤    | [Evaluation](./Evaluation.md) |
+| [Development]                         | 💤    | [Evaluation](./evaluation.md) |
 |                                       |       | [RFC](./RFC.md) |
-| [Feature complete]                    | 💤    | Explainer| 
+| [Feature complete]                    | 💤    | [Explainer](./explainer.md) | 
 | [Stabilized]                          | 💤    | Stabilization report |
 
 [Proposal]: https://lang-team.rust-lang.org/initiatives/process/stages/proposal.html
