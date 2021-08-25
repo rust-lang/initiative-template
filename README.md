@@ -74,8 +74,6 @@ We also participate on [{{CHAT_PLATFORM}}][chat-link], feel free to introduce yo
 [chat-link]: {{CHAT_LINK}}
 [team-toml]: https://github.com/rust-lang/team/blob/master/teams/initiative-{{INITIATIVE_SLUG}}.toml
 
-**/FIX ME**
-
 ## Building Documentation
 This repository is also an mdbook project. You can view and build it using the
 following command.
