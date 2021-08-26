@@ -18,8 +18,8 @@ into the approriate section.
 
 | Role | Github |
 | ---  | --- |
-| [Owner] |  | 
-| [Liaison] |  | 
+| [Owner] | [ghost](https://github.com/ghost) | 
+| [Liaison] | [ghost](https://github.com/ghost) | 
 
 [Owner]: https://lang-team.rust-lang.org/initiatives/process/roles/owner.html
 [Liaison]: https://lang-team.rust-lang.org/initiatives/process/roles/liaison.html
