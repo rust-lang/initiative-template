@@ -16,8 +16,8 @@ into the approriate section.
 
 ## Membership
 
-| Role | Name | Github |
-| ---  | ---  | --- |
+| Role | Github |
+| ---  | --- |
 | [Owner] |  | 
 | [Liaison] |  | 
 
