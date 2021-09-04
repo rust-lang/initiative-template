@@ -66,14 +66,15 @@ Key:
 
 * Check for 'help wanted' issues on this repository!
 * If you would like to help with development, please contact the [owner](./charter.md#membership) to find out if there are things that need doing.
-* If you would like to help with the design, check the list of active [design questions](./design-questions/README.md) first. 
-* If you have questions about the design, you can file an issue, but be sure to check the [FAQ](./FAQ.md) or the [design-questions](./design-questions/README.md) first to see if there is already something that covers your topic.
-* If you are using the feature and would like to provide feedback about your experiences, please [open a "experience report" issue].
+* If you would like to help with the design, check the list of active [design discussions](./design-discussions/README.md) first.
+* If you have questions about the design, you can file an issue, but be sure to check the [FAQ](./FAQ.md) or the [design discussions](./design-discussions/README.md) first to see if there is already something that covers your topic.
+* If you are using the feature and would like to provide feedback about your experiences, please [open a "experience report" issue][experience-report].
 * If you are using the feature and would like to report a bug, please open a regular issue.
 
 We also participate on [{{CHAT_PLATFORM}}][chat-link], feel free to introduce yourself over there and ask us any questions you have.
 
 [open issues]: /issues
+[experience-report]: https://github.com/rust-lang/{{INITIATIVE_SLUG}}/issues/new?labels=experience-report&template=experience-report.md
 [chat-link]: {{CHAT_LINK}}
 [team-toml]: https://github.com/rust-lang/team/blob/master/teams/initiative-{{INITIATIVE_SLUG}}.toml
 
