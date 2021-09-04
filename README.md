@@ -11,7 +11,7 @@
  * Edit CHARTER.md
  * Replace placeholder text (see below)
  * Remove references to "expermental" and "evaluation" unless you need them
- 
+
   All of the text across all of the initial files uses the same group of
  variables to allow for easy search and replace. They are listed below.
 
@@ -30,7 +30,7 @@
 
 ## What is this?
 
-This page tracks the work of the {{INITIATIVE_NAME}} [initiative]! To learn more about what we are trying to do, and to find out the people who are doing it, take a look at the [charter]. 
+This page tracks the work of the {{INITIATIVE_NAME}} [initiative]! To learn more about what we are trying to do, and to find out the people who are doing it, take a look at the [charter].
 
 [charter]: ./CHARTER.md
 [initiative]: https://lang-team.rust-lang.org/initiatives.html
@@ -46,7 +46,7 @@ The following table lists of the stages of an initiative, along with links to th
 |                                       |       | [Tracking issue](https://github.com/rust-lang/rust/) |
 | [Experimental]                        | 🦀    | [Evaluation](./evaluation.md) |
 |                                       |       | [RFC](./RFC.md) |
-| [Development]                         | 💤    | [Explainer](./explainer.md) | 
+| [Development]                         | 💤    | [Explainer](./explainer.md) |
 | [Feature complete]                    | 💤    | Stabilization report |
 | [Stabilized]                          | 💤    | |
 
