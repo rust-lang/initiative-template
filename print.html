@@ -4,36 +4,29 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>{{INITIATIVE_NAME}} initiative</title>
-                <meta name="robots" content="noindex" />
-                
-
+        <meta name="robots" content="noindex" />
         <!-- Custom HTML head -->
-        
-
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-                <link rel="icon" href="favicon.svg">
-                        <link rel="shortcut icon" href="favicon.png">
-                <link rel="stylesheet" href="css/variables.css">
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
-                <link rel="stylesheet" href="css/print.css" media="print">
-        
+        <link rel="stylesheet" href="css/print.css" media="print">
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-                <link rel="stylesheet" href="fonts/fonts.css">
-        
+        <link rel="stylesheet" href="fonts/fonts.css">
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-        
-            </head>
+    </head>
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
@@ -83,14 +76,14 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="index.html">👋 Welcome</a></li><li class="chapter-item "><a href="CHARTER.html">📜 Charter</a></li><li class="chapter-item "><a href="evaluation.html">🔬 Evaluation</a></li><li class="chapter-item "><a href="explainer.html">📚 Explainer</a></li><li class="chapter-item "><a href="RFC.html">✨ RFC</a></li><li class="chapter-item "><a href="design-discussions/index.html">💬 Design discussions</a></li><li class="chapter-item "><a href="FAQ.html">😕 FAQ</a></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item "><a href="index.html">👋 Welcome</a></li><li class="chapter-item "><a href="updates.html">✏️ Updates</a></li><li class="chapter-item "><a href="CHARTER.html">📜 Charter</a></li><li class="chapter-item "><a href="evaluation.html">🔬 Evaluation</a></li><li class="chapter-item "><a href="explainer.html">📚 Explainer</a></li><li class="chapter-item "><a href="RFC.html">✨ RFC</a></li><li class="chapter-item "><a href="FAQ.html">😕 FAQ</a></li></ol>
+            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                
                 <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
@@ -107,25 +100,24 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
-                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
-                                            </div>
+                    </div>
 
                     <h1 class="menu-title">{{INITIATIVE_NAME}} initiative</h1>
 
                     <div class="right-buttons">
-                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
-                                                                        <a href="https://github.com/rust-lang/{{INITIATIVE_SLUG}}" title="Git repository" aria-label="Git repository">
+                        <a href="https://github.com/rust-lang/{{INITIATIVE_SLUG}}" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                                                
                     </div>
                 </div>
 
-                                <div id="search-wrapper" class="hidden">
+                <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
                         <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
                     </form>
@@ -135,7 +127,6 @@
                         </ul>
                     </div>
                 </div>
-                
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -214,6 +205,17 @@ https://github.com/rust-lang/infra-team/issues/new
 following command.</p>
 <pre><code>mdbook serve
 </code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-updates"><a class="header" href="#-updates">✏️ Updates</a></h1>
+<p>Lang-team initiatives give monthly updates. This section collects the updates from this initiative for posterity.</p>
+<p>To add a new update:</p>
+<ul>
+<li>Create a new file <code>updates/YYYY-mmm.md</code>, e.g. <code>updates/2021-nov.md</code>
+<ul>
+<li>We recomend basing this on the <a href="https://github.com/rust-lang/initiative-template/tree/master/updates/template.md">update template</a></li>
+</ul>
+</li>
+<li>Link it from the <code>SUMMARY.md</code></li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="-initiative_name-charter"><a class="header" href="#-initiative_name-charter">📜 {{INITIATIVE_NAME}} Charter</a></h1>
 <!--
  Provide an introduction summarising the goals and motivation behind your
@@ -251,14 +253,6 @@ Note that some initiatives produce multiple RFCs.</p>
 <p>Until there is an accepted RFC, any feature gates must be labeled as experimental.</p>
 <p>When you're ready to start drafting, copy in the <a href="https://raw.githubusercontent.com/rust-lang/rfcs/master/0000-template.md">template text</a> from the <a href="https://github.com/rust-lang/rfcs">rfcs</a> repository.</p>
 </blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="design-discussions"><a class="header" href="#design-discussions">Design discussions</a></h1>
-<p>This directory hosts notes on important design discussions along with their resolutions.
-In the table of contents, you will find the overall status:</p>
-<ul>
-<li>✅ -- <strong>Settled!</strong> Input only needed if you have identified a fresh consideration that is not covered by the write-up.</li>
-<li>💬 -- <strong>Under active discussion.</strong> Check the write-up, which may contain a list of questions or places where feedback is desired.</li>
-<li>💤 -- <strong>Paused.</strong> Not under active discussion, but we may be updating the write-up from time to time with details.</li>
-</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="-frequently-asked-questions"><a class="header" href="#-frequently-asked-questions">😕 Frequently asked questions</a></h1>
 <blockquote>
 <p>This page lists frequently asked questions about the design. It often redirects to the other pages on the site.</p>
@@ -272,42 +266,31 @@ In the table of contents, you will find the overall status:</p>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                        
-                        
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                            </nav>
+            </nav>
 
         </div>
 
-        
-        
-        
-                <script type="text/javascript">
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-        
-        
-                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
         <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        
-                        <script type="text/javascript">
+        <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
-                
     </body>
 </html>
